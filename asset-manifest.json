@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/education-hyperpc/static/css/main.0f279525.css",
+    "main.js": "/education-hyperpc/static/js/main.170c5e93.js",
+    "static/media/main-screen__2.png": "/education-hyperpc/static/media/main-screen__2.917e0bbe3285208de9c8.png",
+    "static/media/main-screen__bgc.png": "/education-hyperpc/static/media/main-screen__bgc.49ea0326c208d060c730.png",
+    "static/media/image.png": "/education-hyperpc/static/media/image.6b8b9fa2265c294933de.png",
+    "static/media/Ellipse 2.png": "/education-hyperpc/static/media/Ellipse 2.22e7e26b9d2fbc2945f2.png",
+    "static/media/Ellipse 3.png": "/education-hyperpc/static/media/Ellipse 3.8e159b8745dceb7b58e4.png",
+    "static/media/Ellipse 1.png": "/education-hyperpc/static/media/Ellipse 1.e94a79284127bba92f89.png",
+    "index.html": "/education-hyperpc/index.html",
+    "main.0f279525.css.map": "/education-hyperpc/static/css/main.0f279525.css.map",
+    "main.170c5e93.js.map": "/education-hyperpc/static/js/main.170c5e93.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f279525.css",
+    "static/js/main.170c5e93.js"
+  ]
+}
