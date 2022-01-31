@@ -1,0 +1,10 @@
+.registration {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.pages {
+    width: 800px;
+}

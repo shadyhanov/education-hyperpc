@@ -1,0 +1,122 @@
+.about {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: rgb(156, 156, 69); */
+}
+
+.compPicture {
+    max-width: 480px;
+    max-height: 470px;
+    border: 15px solid rgb(119, 33, 54);
+    background: rgb(47, 29, 77);
+    box-shadow: rgba(228, 64, 64, 0.56) 0px 22px 70px 4px;
+    margin-left: 60px;
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+
+
+.aboutContainer h1 {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.aboutContainer p {
+    max-width: 650px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    opacity: 65%;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .compPicture {
+        max-width: 375px;
+        max-height: 375px;
+        border: 15px solid rgb(119, 33, 54);
+        background: rgb(47, 29, 77);
+        box-shadow: rgba(228, 64, 64, 0.56) 0px 22px 70px 4px;
+        margin-left: 20px;
+        margin-top: 110px;
+        margin-bottom: 100px;
+    }
+    .compPicture img {
+        width: 350px;
+        height: 350px;
+        margin-top: 13px;
+    }
+
+    .aboutContainer h1 {
+        font-size: 38px;
+        line-height: 100%;
+    }
+    .aboutContainer p {
+        max-width: 450px;
+        font-size: 15px;
+        line-height: 160%;
+        color: #FFFFFF;
+    }
+}
+
+
+@media screen and (max-width: 860px) {
+    .aboutContainer h1 {
+        font-size: 35px;
+        line-height: 100%;
+    }
+    .aboutContainer p {
+        max-width: 350px;
+        font-size: 14px;
+        line-height: 160%;
+        color: #FFFFFF;
+        margin-left: 15px;
+    }
+    .compPicture {
+        max-width: 330px;
+        max-height: 375px;
+        margin-left: 5px;
+        margin-bottom: 100px;
+    }
+    .compPicture img {
+        width: 300px;
+        height: 300px;
+        margin-top: 13px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .compPicture {
+        max-width: 260px;
+        max-height: 260px;
+        margin-left: 5px;
+        margin-bottom: 100px;
+    }
+    .compPicture img {
+        width: 230px;
+        height: 230px;
+        margin-top: 13px;
+    }
+
+    .aboutContainer h1 {
+        max-width: 300px;
+        text-align: center;
+        font-size: 32px;
+        line-height: 100%;
+    }
+    .aboutContainer p {
+        max-width: 280px;
+        font-size: 13px;
+        line-height: 160%;
+        color: #FFFFFF;
+        margin-left: 15px;
+    }
+}

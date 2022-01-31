@@ -1,0 +1,43 @@
+    @media screen and (max-width: 1200px) {
+        .timer {
+            width: 120px;
+            height: 112px;
+            background-color: rgba(18, 18, 18, 1);
+            text-align: center;
+        
+            margin-right: 5px;
+            margin-left: 5px;
+            padding-top: 16px;
+        
+        }
+        
+        .timer span {
+            font-size: 20px;
+            font-weight: 700;
+            color: rgba(255, 255, 255, 1);
+            line-height: 50px;
+        }
+        
+        .timer p {
+            font-size: 15px;
+            font-weight: 400;
+            color: rgba(255, 255, 255, 1);
+            opacity: 40%;
+        }
+    }
+
+    @media screen and (max-width: 880px) {
+        .courses h1 {
+            font-size: 40px;
+        }
+        .col h3 {
+        font-size: 21px;
+
+        }
+        .col p {
+        font-size: 14px;
+        }
+        .col img {
+            margin-left: 90px;
+        }
+    }

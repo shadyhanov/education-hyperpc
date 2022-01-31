@@ -1,0 +1,114 @@
+.teachers {
+    /* background-color: green; */
+}
+
+.teachers h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 140%;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 3rem;
+    margin-bottom: 60px;
+}
+
+.containerTeachers {
+    display: flex;
+    justify-content: space-around;
+}
+
+.containerTeachers img {
+    padding-left: 20px;
+}
+
+.containerTeachers h5 {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 35px;
+}
+
+.containerTeachers p {
+    font-size: 18px;
+    line-height: 160%;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 65%;
+    margin-right: 5px;
+}
+
+.containerTeachers a {
+    display: inline-block;
+    padding: 15px 30px;
+    color: #2196f3;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s; 
+    border: 1px solid;
+    margin-bottom: 135px;
+    margin-left: 10px;
+}
+
+.containerTeachers a:hover {
+    color: #255784;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    border: none;
+    /* transition-delay: 1s; */
+}
+
+
+@media screen and (max-width: 850px) {
+    .containerTeachers h5 {
+        font-size: 23px;
+    }
+    .containerTeachers p {
+        font-size: 15px;
+    }
+    .containerTeachers a {
+        width: 200px;
+        font-size: 18px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .containerTeachers {
+        display: flex;
+        flex-direction: column;
+    }
+    .teacher {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .containerTeachers img {
+        width: 300px;
+    }
+    .containerTeachers a {
+        width: 300px;
+        text-align: center;
+    }
+    .containerTeachers h5 {
+        width: 300px;
+        line-height: 140%;
+        text-align: center;
+        color: #FFFFFF;
+        margin-top: 35px;
+    }
+    .containerTeachers p {
+        width: 300px;
+        text-align: center;
+        color: #FFFFFF;
+        opacity: 65%;
+        margin-right: 5px;
+    }
+}
